@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h3>My fictional Address</h3>
+    <h3>Phone no.: 1234567890</h3>
+    <h3>Email id: ghkdgdjhbd@gmail.com</h3>
+    <hr>
+    <form action="mailto:tctani.2003@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Enter your name: </label>
+        <input type="text" id="name"><br><br>
+        <label for="emailid">Enter your email address: </label>
+        <input type="text" id="emailid"><br><br>
+        <label for="preferences">Email preferences: </label><br><br>
+            <table>
+                <tr>
+                    <td><b>·</b></td>
+                    <td>Donot send emails </td>
+                    <td><input type="radio" name="pref"></td>
+                    <td><input type="button" value="I am a useless button"></td>
+                </tr>
+                <tr>
+                    <td><b>·</b></td>
+                    <td>Only product updates</td>
+                    <td><input type="radio" name="pref"></td>
+                </tr>
+                <tr>
+                    <td><b>·</b></td>
+                    <td>Send all emails</td>
+                    <td><input type="radio" name="pref" for="preferences"></td>
+                </tr>
+            </table>
+            
+            <label for="color">Favourite color? </label>
+            <input type="color" id="color"><br><br>
+            <label for="date">When do you want it to arrive? </label>
+            <input type="date" id="date"><br><br>
+            <label for="datetime">What date-time do you want it to arrive? </label>
+            <input type="datetime-local" id="datetime"><br><br>
+            <label for="time">What time do you want it to arrive? </label>
+            <input type="time" id="time"><br><br>
+            <label for="week">What week do you want it to arrive? </label>
+            <input type="week" id="week"><br><br>
+            <label for="sal">Enter your salary: </label>
+            <input type="number" id="sal"><br><br>
+            <label for="pass">Enter your Password: </label>
+            <input type="password" id="pass"><br><br>
+            <label for="rate">Rate me: </label>
+            <input type="range" id="rate"><br><br>
+            <label for="search">Search here:</label>
+            <input type="search" id="search"><br><br>
+            <label for="telno.">Enter your telephone no.: </label>
+            <input type="tel" id="telno."><br><br>
+            <label for="vid">Submit a video for review: </label>
+            <input type="file" id="vid"><br><br>
+            <label for="hidden">Mhmm: </label>
+            <input type="hidden" id="hidden" name="postId" value="34657"><br><br>
+            <label for="gender">Enter your gender:</label>
+            Male <input type="radio" name="gender"> Female <input type="radio" name="gender" id="gender"> Other <input type="radio" name="gender"><br>
+            <label for="write">Write something about yourself: </label><br>
+            <textarea name="text" rows="10" cols ="90" id="write"></textarea><br><br>
+            <label for="car">Select a car:</label>    
+            <select name="mycar" id="car">
+                <option value="car1">Car1</option>
+                <option value="car2">Car2</option>
+                <option value="default" selected>No option is chosen</option>
+            </select><br><br>  
+            <!---<input type="submit" value="Submit Now">--->
+            <input type="reset" value="Reset Now"><br><br>
+            <input type="image" src="submit.png">
+            
+
+        </form>
+</body>
+</html>
